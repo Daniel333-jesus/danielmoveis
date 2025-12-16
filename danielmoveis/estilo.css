@@ -1,0 +1,120 @@
+/*DESKTOP*/
+body{
+    font-family: "Roboto Serif", serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) 20%, white 70%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+#top{
+    background-color: black;
+    color: white;
+}
+#containertop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+}
+#menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#primeiralinha > li{
+    padding: 15px 75px;
+}
+#segundalinha > li{
+    padding: 0 45px;
+}
+#diferenciais{
+    color: white;
+}
+#containerdiferenciais{
+    display: flex;
+    justify-content: flex-start;
+}
+#ambiente{
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.depoimentos{
+    font-family: "Roboto Serif", serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.boxdepoimentos{
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+    height: 203px;
+    width: 460px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px 5px black;
+    text-align: center;
+}
+a{
+    background-color: rgba(0, 0, 0, 0.788);
+    color: wheat;
+    height: 45px;
+    width: 30%;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 5px 5px 10px 5px black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: red;
+}
+#faleconosco{
+    background-color: black;
+    color: white;
+    margin-top: auto;
+}
+#instagram{
+    display: flex;
+    justify-content: flex-start;
+}
+#whatsapp{
+    display: flex;
+    justify-content: flex-start;
+}
+#logorodape{
+    display: flex;
+    justify-content: flex-end;
+}
+h2{
+    font-family: "Arapey", serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+p{
+    margin-left: 15px;
+}
+#revendedor{
+    text-align: center;
+}
+.removegradient{
+    background-image: none;
+}
+
+/*TABLET*/
+
+
+/*MOBILE*/
