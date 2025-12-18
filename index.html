@@ -16,6 +16,12 @@
                     <a href="index.html"><img src="images/logo.png" id="logo" alt="Logo Daniel Móveis"></a>
                 </h1>
                 <nav id="menu">
+                    <label id="botaomenu" for="aberturamenu">
+                        <div class="linha"></div>
+                        <div class="linha"></div>
+                        <div class="linha"></div>
+                    </label>
+                    <input type="checkbox" id="aberturamenu">
                     <ul id="primeiralinha">
                         <li> <a href="index.html">Início</a> </li>
                         <li> <a href="sobrenos.html">Sobre a Daniel Móveis</a> </li>
@@ -51,24 +57,24 @@
             </section>
             <section id="ambiente">
                 <h2>Escolha por ambiente</h2>
-                <div class="container">
-                        <article>
-                            <a href="cozinha.html"><img src="images/cozinha.png" alt="Cozinha"></a>
-                            <h3><a href="cozinha.html">Cozinha</a></h3>
+                <div class="container containerresponsive">
+                        <article class="responsive">
+                            <a href="#"><img src="images/cozinha.png" alt="Cozinha"></a>
+                            <h3> <a href="#">Cozinha</a> </h3>
                         </article>
-                        <article>
-                            <a href="#"><img src="images/quarto.png" alt="Quarto"></a>
-                            <h3><a href="#">Quarto</a></h3>
+                        <article class="responsive">
+                            <a href="quarto.html"><img src="images/quarto.png" alt="Quarto"></a>
+                            <h3> <a href="quarto.html">Quarto</a> </h3>
                         </article>
-                        <article>
+                        <article class="responsive">
                             <a href="#"><img src="images/infantil.png" alt="Infantil"></a>
                             <h3> <a href="#">Infantil</a> </h3>
                         </article>
-                        <article>
+                        <article class="responsive">
                             <a href="#"><img src="images/sala-de-jantar.png" alt="Sala de Jantar"></a>
                             <h3> <a href="#">Sala de jantar</a> </h3>
                         </article>
-                        <article>
+                        <article class="responsive">
                             <a href="#"><img src="images/sala-de-estar.png" alt="Sala de Estar"></a>
                             <h3> <a href="#">Sala de estar</a> </h3>
                         </article>
@@ -76,16 +82,16 @@
             </section>
             <section>
                 <h2>Depoimentos</h2>
-                <div class="container">
-                    <div class="boxdepoimentos">
+                <div class="container containerresponsive">
+                    <div class="boxdepoimentos responsive">
                         <h3 class="depoimentos">Mariana Alves - SP</h3>
                         <p><i>"A Daniel Móveis transformou minha cozinha! O atendimento foi incrível e o projeto ficou exatamente como eu sonhava. Cada detalhe foi pensado com muito cuidado."</i></p>
                     </div>
-                    <div class="boxdepoimentos">
+                    <div class="boxdepoimentos responsive">
                         <h3 class="depoimentos">Rafael Teixeira - RS</h3>
                         <p><i>"Contratei a Daniel Móveis para o escritório da minha empresa e o resultado foi impecável. Design moderno, entrega no prazo e qualidade excelente!"</i></p>
                     </div>
-                    <div class="boxdepoimentos">
+                    <div class="boxdepoimentos responsive">
                         <h3 class="depoimentos">Camila Santos - MG</h3>
                         <p><i>"Os móveis planejados do meu quarto ficaram perfeitos! A equipe é super atenciosa e o acabamento é de altíssimo nível. Recomendo de olhos fechados."</i></p>
                     </div>
@@ -97,7 +103,7 @@
                 <h3 id="revendedor"> <a href="#">QUERO SER UM REVENDEDOR</a> </h3>
             </section>
         </main>
-        <section id="faleconosco">
+        <footer id="faleconosco">
             <h2>Fale conosco</h2>
             <div id="instagram">
                 <img src="images/instagram.png" alt="Logo Instagram">
@@ -111,6 +117,6 @@
             <div id="logorodape">
                 <img src="images/logorodape.png" alt="Logo Daniel Móveis">
             </div>
-        </section>
+        </footer>
     </body>
 </html>
