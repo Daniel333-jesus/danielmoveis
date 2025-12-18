@@ -183,20 +183,21 @@ h2{
         flex-direction: column-reverse;
     }
 
-    #menu > ul{
+    #menu ul{
         flex-direction:column;
         text-align: center;
         height: 1px;
         overflow: hidden;
         transition: height 1s linear;
     }
-    #menu > li{
+    #menu ul li{
         border-bottom: 1px dashed white;
         padding: 5px 0;
         margin: 2px 0;
     }
-    #aberturamenu:checked ~ ul{
-       height: 150px;
+    #aberturamenu:checked ~ #primeiralinha,
+    #aberturamenu:checked ~ #segundalinha{
+        height: auto;
     }
 
     #botaomenu{
